@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    gap: 5rem;
+}
+.left{
+    width: 450px;
+    margin-top: 70px;
+    display: inline-block;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #1877f2;
+}
+.signup{
+    background-color: #42b72a;
+}
+.fb-logo{
+    width: 30rem;
+}
+
+
+
